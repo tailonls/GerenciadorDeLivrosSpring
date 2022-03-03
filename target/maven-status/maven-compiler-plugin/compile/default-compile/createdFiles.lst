@@ -1,1 +1,6 @@
+com\tailon\GerenciadorDeLivrosSpring\entity\Book$BookBuilder.class
 com\tailon\GerenciadorDeLivrosSpring\GerenciadorDeLivrosSpringApplication.class
+com\tailon\GerenciadorDeLivrosSpring\entity\Book.class
+com\tailon\GerenciadorDeLivrosSpring\entity\Author$AuthorBuilder.class
+com\tailon\GerenciadorDeLivrosSpring\repository\BookRepository.class
+com\tailon\GerenciadorDeLivrosSpring\entity\Author.class

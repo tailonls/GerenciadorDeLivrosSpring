@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.tailon.GerenciadorDeLivrosSpring.GerenciadorDeLivrosSpringApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.693 s - in com.tailon.GerenciadorDeLivrosSpring.GerenciadorDeLivrosSpringApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.399 s - in com.tailon.GerenciadorDeLivrosSpring.GerenciadorDeLivrosSpringApplicationTests
