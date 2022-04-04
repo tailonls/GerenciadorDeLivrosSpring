@@ -1,6 +1,5 @@
 package com.tailon.GerenciadorDeLivrosSpring.dto;
 
-import com.tailon.GerenciadorDeLivrosSpring.entity.Author;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -40,5 +39,5 @@ public class BookDTO {
 
     @Valid
     @NotNull
-    private Author author;
+    private AuthorDTO author;
 }

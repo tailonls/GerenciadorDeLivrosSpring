@@ -1,4 +1,11 @@
+C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\mapper\BookMapper.java
+C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\dto\BookDTO.java
+C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\dto\MessageResponseDTO.java
+C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\controller\BookController.java
 C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\entity\Author.java
 C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\entity\Book.java
 C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\repository\BookRepository.java
 C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\GerenciadorDeLivrosSpringApplication.java
+C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\service\BookService.java
+C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\dto\AuthorDTO.java
+C:\GITPUSH\GerenciadorDeLivrosSpring\src\main\java\com\tailon\GerenciadorDeLivrosSpring\mapper\AuthorMapper.java

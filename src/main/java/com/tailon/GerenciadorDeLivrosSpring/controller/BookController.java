@@ -2,13 +2,10 @@ package com.tailon.GerenciadorDeLivrosSpring.controller;
 
 import com.tailon.GerenciadorDeLivrosSpring.dto.BookDTO;
 import com.tailon.GerenciadorDeLivrosSpring.dto.MessageResponseDTO;
+import com.tailon.GerenciadorDeLivrosSpring.exceptions.BookNotFoundException;
 import com.tailon.GerenciadorDeLivrosSpring.service.BookService;
-import io.swagger.v3.oas.annotations.Parameter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
@@ -16,7 +13,7 @@ import javax.validation.Valid;
 @RequestMapping("/api/v1/books")
 public class BookController {
 
-    private BookService bookService;
+    private final BookService bookService;
 
     @Autowired
     public BookController(BookService bookService) {
@@ -24,7 +21,12 @@ public class BookController {
     }
 
     @PostMapping
-    public MessageResponseDTO create( @RequestBody @Valid BookDTO bookDTO) {
+    public MessageResponseDTO create(@RequestBody @Valid BookDTO bookDTO) {
         return bookService.create(bookDTO);
+    }
+
+    @GetMapping("/{id}")
+    public BookDTO findById(@PathVariable Long id) throws BookNotFoundException {
+        return bookService.findById(id);
     }
 }
